@@ -1,0 +1,260 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+/*
+    
+    Web Design Final Project
+    Author: Karen Haberbusch
+    Due: 12/4/2020
+
+*/
+
+/* Home Styles */
+html {
+    height: 100%;
+    background-color: #9e9ede;
+}
+
+body {
+    width: 95%;
+    min-width: 640px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    background-color: #ccccff;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    box-shadow: 10px 0px 50px rgb(51, 51, 51), -10px 0px 50px rgb(51, 51, 51);
+}
+
+h1, h2, h3, p, li, div {
+    font-family: 'Raleway', sans-serif;
+}
+
+p, li {
+    font-size: 1.1em;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.54824561%;
+    width: 20%;
+}
+
+nav ul {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-left: 5.48245614%;
+    margin-right: 5.48245614%;
+}
+
+nav ul li {
+   background-color: #ccccff;  
+   font-size: 1em;
+   padding: 1.09649123% 0;
+   text-align: center;
+   width: 15.83%;
+}
+
+nav a:link, nav a:visited {
+   color: black;
+    text-decoration: none;
+}
+
+nav a:hover, nav a:active {
+   color: #99627c;
+}
+
+nav li {
+    display: block;
+    width: 12.5%;
+    float: left;
+}
+
+h2 {
+    text-align: center;
+}
+
+.home img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 70%;
+    margin-bottom: 5.48245614%;
+}
+
+main.home img {
+    box-shadow: -10px 10px #8282ba;
+}
+
+aside.home img {
+    box-shadow: 10px -10px #8282ba;
+}
+
+main.home {
+    float: left;
+    width: 45%;
+}
+
+aside.home {
+    float: right;
+    width: 45%;
+}
+
+main.home p {
+    padding: 2.74122807% 2.74122807% 2.74122807%;
+    font-size: 1.25em;
+    margin-left: 20%;
+}
+
+aside.home h3, aside.home ul {
+    margin-right: 20%;
+}
+
+aside.home h3 {
+    margin-top: 10%;
+}
+
+aside.home ul {
+    padding-left: 0%;
+    line-height: 1.5em;
+}
+
+.row::after {
+    clear: both; 
+    display: table; 
+    content: "";
+}
+
+footer {
+   clear: both;
+   color: black;
+   background-color: #8d8dd8;
+   font-size: 0.9em;
+   padding: 1% 0;
+   text-align: center;
+}
+
+
+
+
+/* Patterns Styles */
+
+main > ul {
+    width: 80%;
+    list-style-type: none;
+}
+
+main > ul li {
+    display: block;
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 15%;
+    margin-bottom: 3%;
+    background-color: #d2adbf;
+    padding-top: 0.5%;
+    padding-left: 2%;
+    padding-right: 3%;
+    padding-bottom: 2%;
+    border-radius: 25px;
+    border: 2px solid #99627c;
+}
+
+main > ul li img {
+    float: right;
+    width: 25%;
+    border-radius: 25px;
+    border: 2px solid #99627c;
+}
+
+main > ul li p {
+    float: left;
+    width: 70%;
+}
+
+main.pattern h3 {
+    margin-bottom: 0;
+    padding-top: 0%;
+}
+
+
+
+
+/* My Projects Styles */
+
+article {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #d2adbf;
+    border-radius: 25px;
+    border: 2px solid #99627c;
+}
+
+article#heart {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+}
+
+main.projects img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+article#scarf img {
+    transform: rotate(90deg);
+    box-shadow: 10px 10px #99627c;
+}
+
+article#heart img {
+    box-shadow: -10px 10px #99627c;
+}
+
+
+
+/* Gallery Styles */
+
+main.photos p {
+    text-align: center;
+}
+
+div#firstline, div#secondline {
+    margin-left: 10%;
+}
+
+div#firstline {
+    margin-bottom: 25%;
+    padding-bottom: 10%;
+}
+
+div.gallery {
+  margin: 1%;
+  border: 1px solid #ccc;
+  float: left;
+  width: 19.7368421%;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 5%;
+  text-align: center;
+}
