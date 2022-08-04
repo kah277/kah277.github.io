@@ -83,8 +83,8 @@ h2 {
 }
 
 .bio a {
-    /*display: flex;
-    justify-content: center;*/
+    display: flex;
+    justify-content: center;
     width: 40%;
     margin: 0 auto;
 }
