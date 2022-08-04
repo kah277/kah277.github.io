@@ -1,0 +1,535 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --red: #C3504D;
+    --blue: #3E7E95;
+    --cream: #F9FCE7;
+    --white: #FFFFFF;
+}
+
+.flavors-container {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.navigation_icon {
+    display: inline-block;
+    padding-top: 15px;
+    width: 18px;
+    height: 12px;
+}
+
+.navigation_list {
+    display: none;
+}
+
+.navigation {
+    display: flex;
+    padding: .8rem;
+    background-color: var(--red);
+}
+
+.navigation_logo, .navigation_list {
+    flex: 1;
+}
+
+.navigation_list-item a {
+    color: var(--white);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navigation_list {
+    display: none;
+}
+
+.navigation_logo img {
+    display: inline-block;
+    max-width: 44px;
+    width: 38px;
+    height: 40px;
+}
+
+
+.title-display h1 {
+    font-family: 'Passion One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 32px;
+    text-align: center;   
+    color: var(--red);
+}
+
+.title-display img {
+    width: 95.57px;
+    height: 100px;
+    padding-bottom: 14px;
+    display: block;
+    margin: 0 auto;
+}
+
+.title-display {
+    background-color: var(--cream);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.flavors {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.flavors-container {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 64px; 
+    justify-content: center; 
+}
+
+.flavor-categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--white);
+    padding: 24px;
+}
+
+.flavors img {
+    max-width: 100%;
+    border: 4px solid var(--cream);
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.flavors h2 {
+    font-family: 'Passion One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 30px;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.flavors h3 {
+    font-family: 'Passion One';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    padding-top: 16px;
+}
+
+h2 {
+    padding-top: 40px;
+    padding-bottom: 48px;
+}
+
+.locations {
+    background-color: var(--cream);
+}
+
+.locations-container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 48px; 
+    justify-content: center; 
+    margin-left: 37px;
+    margin-right: 37px;
+}
+
+.locations-categories {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 20px;
+    margin-top: 0;
+    border: 4px solid #C3504D;
+}
+
+.locations h2 {
+    font-family: 'Passion One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 30px;
+    text-align: center;
+    color: var(--red);   
+}
+
+.locations-categories img {
+    max-width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+
+.first-half {
+    background-color: var(--red);
+    color: var(--white); 
+}
+
+.locations-categories h3 {
+    font-family: 'Passion One';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: left;
+    padding-left: 22px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.locations-categories p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+    padding-bottom: 18px;
+}
+
+.second-half {
+    padding-left: 22px;
+    padding-top: 22px;
+}
+
+.order-form-section {
+    background-color: var(--red);
+}
+
+.order-form-section h2 {
+    font-family: 'Passion One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 30px;
+    text-align: center;
+    color: var(--white);   
+}
+
+.icd_form {
+    padding-bottom: 64px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--white);
+    padding-right: 58px;
+    padding-left: 60px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 13px;
+}
+
+.contact-info input {
+    width: 256px;
+    height: 32px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.icd_form ul {
+    list-style-type: none;
+    padding-top: 19px;
+}
+
+.flavor-choices li {
+    padding-bottom: 23px;
+}
+
+select {
+    width: 256px;
+    height: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 19px;
+    padding-bottom: 32px;
+}
+
+.dropdown {
+    padding-bottom: 33px;
+}
+
+button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.0357143em;
+    text-transform: uppercase;
+    background-color: var(--white);
+    color: var(--red);
+    width: 144px;
+    height: 44px;
+    border-radius: 8px;
+    border: 0px;
+}
+
+footer {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--white);
+    background-color: var(--blue);
+    padding-top: 29px;
+    padding-bottom: 29px;
+}
+
+@media screen and (min-width: 376px){
+
+    .title-display img {
+        width: 191px;
+        height: 204px;
+        margin: 0;
+    }
+
+    .title-display {
+        display: flex;
+        align-items: center;
+        background-color: var(--cream);
+        justify-content: center;
+        padding-top: 81px;
+        padding-bottom: 86px;
+    }
+
+    .title-display h1 {
+        font-family: 'Passion One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 96px;
+        line-height: 38px;
+        color: var(--red);
+        text-align: center;    
+    }
+
+    .two-flavors {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    
+    .navigation_icon {
+        display: none;
+    }
+    
+    .navigation_logo img {
+        display: inline-block;
+        max-width: 44px;
+    }
+      
+    .navigation_list {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .contact-info-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .icd_form {
+        min-width: 528px;
+    }
+        
+    .order-form-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }    
+    
+    .locations {
+        background-color: var(--cream);
+    }
+    
+    .locations-container {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 48px; 
+        justify-content: center; 
+        margin-left: 57px;
+        margin-right: 57px;
+    }
+    
+    .locations-categories {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        margin: 20px;
+        border: 4px solid #C3504D;
+    }
+    
+    .locations h2 {
+        font-family: 'Passion One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 30px;
+        text-align: center;
+        color: var(--red);   
+    }
+    
+    .locations-categories img {
+        max-width: 100%;
+        box-sizing: border-box;
+        display: block;
+    }
+    
+    .first-half {
+        background-color: var(--red);
+        color: var(--white); 
+    }
+    
+    .locations-categories h3 {
+        font-family: 'Passion One';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 24px;
+        text-align: left;
+        padding-left: 22px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }
+    
+    .locations-categories p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: left;
+        padding-bottom: 18px;
+    }
+    
+    .second-half {
+        padding-left: 22px;
+        padding-top: 22px;
+        padding-right: 22px;
+    }
+    
+    .order-form-section {
+        background-color: var(--red);
+    }
+    
+    .order-form-section h2 {
+        font-family: 'Passion One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 30px;
+        text-align: center;
+        color: var(--white);   
+    }
+    
+    .icd_form {
+        padding-bottom: 64px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--white);
+    }
+    
+    .contact-info-container {
+        padding-bottom: 31px;
+    }
+    
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        padding-right: 15px;
+    }
+    
+    .contact-info input {
+        width: 256px;
+        height: 38px;
+    }
+    
+    .icd_form ul {
+        list-style-type: none;
+    }
+    
+    .flavor-choices {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+    
+    select {
+        width: 256px;
+        height: 38px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .dropdown-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 19px;
+        padding-bottom: 32px;
+    }
+    
+    button {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.0357143em;
+        text-transform: uppercase;
+        background-color: var(--white);
+        color: var(--red);
+        width: 144px;
+        height: 44px;
+        border-radius: 8px;
+        border: 0px;
+    }
+    
+    footer {
+        font-family: 'Roboto';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: center;
+        color: var(--white);
+        background-color: var(--blue);
+        padding-top: 29px;
+        padding-bottom: 29px;
+    }
+}
